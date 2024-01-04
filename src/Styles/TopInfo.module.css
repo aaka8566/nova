@@ -1,0 +1,93 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: 65% 30%;
+    justify-content: space-between;
+    padding:2rem;
+    gap: 1rem;
+    border: 0px solid green;
+}
+.maindiv>div:nth-child(1){
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: space-between;
+    gap: 1rem;
+    border: 0px solid red
+}
+
+.image2{
+    width: 100%;
+}
+.maindiv>div:nth-child(2)>img{
+    width: 100%;
+}
+.maindiv>div:nth-child(2)>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding:1rem;
+}
+.mainrightbutton{
+border-radius: 2rem;
+padding: 0.5rem 1rem 0.5rem 0.5rem;
+display: flex;
+justify-content: flex-start;
+gap: 0.5rem;
+align-items: center;
+background-color: white;
+border: 2px solid grey;
+font-size: 1rem;
+}
+.navarrow{
+    background-color: red;
+   color: white;
+   border-radius: 2rem;
+   padding: 1.5rem;
+   
+}
+.navarrow1{
+    background-color: red;
+   color: white;
+   border-radius: 2rem;
+   padding: 0.5rem;
+   
+}
+.text>p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.text>p:nth-child(2){
+    font-size: 0.9rem; 
+    line-height: 1.5rem;
+    padding-right:2.5rem;
+}
+.leftbutton{
+    border-radius: 2rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 1rem;
+}
+.lefttext{
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    line-height: 1.7rem;
+    color: grey;
+    padding-right: 3rem;
+}
+.heading{
+  font-size: 2.5rem;
+}
+.leftfirstdiv{
+    display: grid;
+    gap: 2rem;
+}
+.lasttext{
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}

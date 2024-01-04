@@ -1,0 +1,32 @@
+.maindiv{
+    display: grid;
+    grid-template-columns: 30% 60%;
+    justify-content: space-between;
+    padding:2rem;
+    gap: 1rem;
+    border: 0px solid green;
+}
+/* .leftdiv{
+    display: grid;
+    grid-template-columns:60% 30%;
+    justify-content: space-between;
+    padding:1rem;
+    gap: 1rem;
+    border: 0px solid green;
+} */
+.leftarrow{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.leftimage{
+width: 100%;
+}
+.leftdown{
+    display: flex;
+    justify-content: space-between;
+}
+.lefttopdiv{
+    display: flex;
+    justify-content: space-between;
+}
